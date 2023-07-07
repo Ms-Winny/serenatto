@@ -31,6 +31,35 @@ input[type="checkbox"]:focus {
   background-attachment: fixed;
 }
 
+.banner-2{
+  background-image: url(./assets/banner-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.banner-3{
+  background-image: url(./assets/banner-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .banners-titulo{
   --bs-bg-opacity: .2;
+}
+
+.botao-detalhes{
+  background-color: var(--marrom-claro);
+  color: black;
+}
+
+.botao-detalhes:hover{
+  background-color: var(--bege);
+}
+
+.h1{
+  font-size: 2.5rem;
 }

@@ -70,7 +70,7 @@
         <div class="card-body px-4">
           <h5 class="card-title fs-3 my-2">Café & Bistrô</h5>
           <p class="card-text my-4">Nosso bistrô oferece uma ampla variedade de cafés, smoothies, deliciosos salgados e sobremesas. Uma excelente opção para quem busca um lugar tranquilo e aconchegante.</p>
-          <a href="#" class="botao-detalhes btn text-center d-grid fw-bold">Quero detalhes</a>
+          <a href="#" class="botao-detalhes btn text-center d-grid fw-bold" data-bs-toggle="offcanvas" data-bs-target="#canvas-1" aria-controls="offcanvasRight">Quero detalhes</a>
         </div>
       </div>
 
@@ -100,8 +100,59 @@
       </div>
     </section>
 
+    <h1 class="text-center my-5 fw-bold h1">Nossos Produtos</h1>
+
+    <section class="container produtos d-flex flex-column align-items-center pb-4">
+      <div class="produto">
+        <img src="./assets/produtos-cafe-tradicional.png" alt="Uma xícara de café preto">
+        <h2 class="fw-bold text-center">Cafés Tradicionais</h2>
+      </div>
+      <div class="produto">
+        <img src="./assets/produtos-cafe-especial.png" alt="Uma xícara de café espumado com desenho de  coração">
+        <h2 class="fw-bold text-center">Cafés Especiais</h2>
+      </div>
+      <div class="produto">
+        <img src="./assets/produtos-vitaminas.png" alt="Três copos de smoothies de frutas variados">
+        <h2 class="fw-bold text-center">Smoothies e Vitaminas</h2>
+      </div>
+      <div class="produto">
+        <img src="./assets/produtos-paes.png" alt="Vários pães em diferentes formatos e tamanhos">
+        <h2 class="fw-bold text-center">Pães e Focaccias</h2>
+      </div>
+      <div class="produto">
+        <img src="./assets/produtos-doces.png" alt="Um bolo de frutas vermelhas com creme">
+        <h2 class="fw-bold text-center">Doces</h2>
+      </div>
+      <div class="produto">
+        <img src="./assets/produtos-salgados.png" alt="Uma torta">
+        <h2 class="fw-bold text-center">Salgados</h2>
+      </div>
+      
+    </section>
+
     <section class="banners banner-3"></section>
+
+    <section class="redessociais">
+      <div class="justify-content-center d-flex gap-5 py-4 fs-1">
+      <i class="bi bi-whatsapp"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-twitter"></i>
+    </div>
+    </section>
   </main>
+  <footer class="py-3 px-5 container">
+      <p>2023 <i class="bi bi-c-circle"></i> Desenvolvido por Alura | Projeto fictício sem fins comerciais.</p>
+  </footer>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="canvas-1" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    ...
+  </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"

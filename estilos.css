@@ -63,3 +63,7 @@ input[type="checkbox"]:focus {
 .h1{
   font-size: 2.5rem;
 }
+
+.redessociais, footer{
+  background-color: var(--marrom-claro);
+}

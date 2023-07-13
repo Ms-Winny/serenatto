@@ -56,7 +56,7 @@ input[type="checkbox"]:focus {
   color: black;
 }
 
-.botao-detalhes:hover{
+.botao-detalhes:hover, .botao-detalhes:active{
   background-color: var(--bege);
 }
 

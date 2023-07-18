@@ -64,7 +64,7 @@
 
     <h1 class="text-center my-5 fw-bold h1">Nossos Serviços</h1>
 
-    <aside class="container d-flex flex-column align-items-center gap-4 my-5">
+    <aside class="container d-flex flex-column align-items-center gap-4 my-5 flex-xl-row justify-content-center">
       <div class="card" style="width: 22rem;">
         <img src="./assets/cafe-card.png" class="card-img-top" alt="...">
         <div class="card-body px-4">
@@ -102,28 +102,28 @@
 
     <h1 class="text-center my-5 fw-bold h1">Nossos Produtos</h1>
 
-    <section class="container produtos d-flex flex-column align-items-center pb-4">
-      <div class="produto">
+    <section class="container produtos d-flex flex-column align-items-center justify-content-center flex-sm-row flex-sm-wrap pb-4 gap-5 mb-5">
+      <div class="produto btn" data-bs-toggle="modal" data-bs-target="#modal-1">
         <img src="./assets/produtos-cafe-tradicional.png" alt="Uma xícara de café preto">
         <h2 class="fw-bold text-center">Cafés Tradicionais</h2>
       </div>
-      <div class="produto">
+      <div class="produto btn" data-bs-toggle="modal" data-bs-target="#modal-2">
         <img src="./assets/produtos-cafe-especial.png" alt="Uma xícara de café espumado com desenho de  coração">
         <h2 class="fw-bold text-center">Cafés Especiais</h2>
       </div>
-      <div class="produto">
+      <div class="produto btn">
         <img src="./assets/produtos-vitaminas.png" alt="Três copos de smoothies de frutas variados">
         <h2 class="fw-bold text-center">Smoothies e Vitaminas</h2>
       </div>
-      <div class="produto">
+      <div class="produto btn">
         <img src="./assets/produtos-paes.png" alt="Vários pães em diferentes formatos e tamanhos">
         <h2 class="fw-bold text-center">Pães e Focaccias</h2>
       </div>
-      <div class="produto">
+      <div class="produto btn">
         <img src="./assets/produtos-doces.png" alt="Um bolo de frutas vermelhas com creme">
         <h2 class="fw-bold text-center">Doces</h2>
       </div>
-      <div class="produto">
+      <div class="produto btn">
         <img src="./assets/produtos-salgados.png" alt="Uma torta">
         <h2 class="fw-bold text-center">Salgados</h2>
       </div>
@@ -268,6 +268,45 @@
             Temos espaço adequado para trabalho, com conexão de internet de alta velocidade e instalações confortáveis para reuniões.
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cafés Tradicionais</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/produtos-cafe-tradicional.png" alt="Xícara de café preto" class="w-100">
+        <p>O café Serenatto é conhecido por seus blends tradicionais e saborosos, que agradam aos amantes da bebida. Nossos grãos são cuidadosamente selecionados e torrados para produzir um aroma rico e sabor equilibrado.</p>
+        <p>Entre os cafés mais tradicionais da casa, destaca-se o "Café Serenatto", um blend exclusivo de grãos com notas de chocolate e caramelo. Outra opção popular é o "Café Italiano", um café expresso encorpado e intenso. Já o "Café Cappuccino" é uma escolha clássica para quem prefere uma bebida cremosa e suave.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary botao-detalhes mx-auto" data-bs-dismiss="modal">Fechar janela</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Cafés Especiais</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./assets/produtos-cafe-especial.png" alt="Xícara de café com desenho de flor na espuma" class="w-100">
+        <p>Somos conhecidos também por nossos cafés especiais, que são cuidadosamente preparados com grãos selecionados de alta qualidade e técnicas de preparo precisas.</p>
+
+        <p>Entre as opções de cafés especiais do Café & Bistrô Serenatto, destacamos o café aeropress, que é preparado com uma técnica de imersão e pressão, resultando em uma bebida de sabor intenso e aroma acentuado. Outra opção popular é o café Hario V60, que é preparado com um filtro de papel em formato de cone e resulta em uma bebida limpa e suave, ressaltando as notas sensoriais dos grãos. Além disso, oferecemos uma variedade de bebidas geladas, como o café gelado, que é preparado com grãos torrados escuros e servido com gelo e leite, resultando em uma bebida refrescante e saborosa.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary botao-detalhes mx-auto" data-bs-dismiss="modal">Fechar janela</button>
       </div>
     </div>
   </div>

@@ -67,3 +67,28 @@ input[type="checkbox"]:focus {
 .redessociais, footer{
   background-color: var(--marrom-claro);
 }
+
+.input-range::-webkit-slider-thumb{
+  background: var(--marrom-claro);
+}
+
+.accordion{
+  --bs-accordion-btn-focus-border-color: var(--bege);
+  --bs-accordion-active-bg: var(--marrom-claro);
+  --bs-accordion-active-color: black;
+  --bs-accordion-btn-focus-box-shadow: ;
+}
+
+[data-bs-theme="dark"]{
+  color: white;
+  .nav-link, .card-body, .offcanvas, .accordion, .btn{
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-body-color: white;
+  }
+}
+
+.form-switch .form-check-input:focus {
+  --bs-form-switch-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2386b7fe'/%3e%3c/svg%3e);
+}
